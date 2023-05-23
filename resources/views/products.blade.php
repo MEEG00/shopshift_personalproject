@@ -1,5 +1,5 @@
 <x-layout>
-    <x-header maintitle='YOU WANT BUY SOMETHING?'/>
+    <x-header maintitle='EXPLORE OUR PRODUCTS'/>
 <div class="container">
     <div class="row">
         @foreach($products as $product)

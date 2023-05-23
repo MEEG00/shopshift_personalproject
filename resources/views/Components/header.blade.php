@@ -1,6 +1,6 @@
 <header class="container-fluid">
-    <div class="row vh-100 header align-items-center">
-        <div class="col-12 text-center">
+    <div class="row vh-50 header justify-content-center">
+        <div class="col-12 text-center mt-2">
             <h1>{{$maintitle}}</h1>
         </div>
     </div>

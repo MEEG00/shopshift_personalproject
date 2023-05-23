@@ -1,0 +1,45 @@
+:root{
+    --main:#DEDEDE;
+    --secc:#222222;
+    --acc:#dedede00;
+
+}
+h1{
+   font-family: 'Days One', sans-serif;
+   color: var(--secc);
+   font-size: 13vw;
+}
+
+h2,h3,h4,h5,h6,p{
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   color: var(--secc);
+}
+body{
+    background-color: var(--main);
+}
+p{
+    font-size:15px;
+}
+h2{
+    font-size:3.2vw;
+}
+.navcol{
+    background-color: var(--acc);
+}
+.navcl{
+    font-family: 'Days One', sans-serif;
+    color: var(--secc);
+}
+.card:hover{
+    color:var(--secc);
+    background-color:var(--main);
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+.cardfnt{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.btncol{
+    background-color: var(--secc);
+    color: var(--main)
+}

@@ -14,4 +14,5 @@ class PublicController extends Controller
     {
     return view ('products');
     }
+    
 }
