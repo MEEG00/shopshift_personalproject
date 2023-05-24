@@ -1,9 +1,9 @@
 
 
-<div class="container">
+<div class="container my-5">
     <div class="row justify-content-center">
         <div class="col-12 col-md-8">
-            <form method="POST" action="{{route('store')}}">
+            <form method="POST" action="{{route('store')}}" enctype="multipart/form-data">
 
                 @csrf
 
@@ -27,6 +27,16 @@
                     <label for="itemPrice" class="form-label cardfnt">Price</label>
                     <input type="number" step="0.01"class="form-control cardfnt" id="price" name="price">
                 </div>
+
+                <div class="mb-3">
+                    <label for="img" class="form-label cardfnt">Add image</label>
+                    <input type="file" class="form-control cardfnt" id="img" name="img">
+                </div>
+
+
+
+
+
                 <button type="submit" class="btn btncol cardfnt">Sell!</button>
 
             </form>

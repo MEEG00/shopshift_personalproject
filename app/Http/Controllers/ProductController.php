@@ -18,6 +18,7 @@ class ProductController extends Controller
             'item'=>$request->item,
             'description'=>$request->description,
             'price'=>$request->price,
+            'img'=>$request->file('img') ? $request->file('img')->store('public/media'):'/media/default.jpg',
         ]
         );
 
@@ -27,5 +28,12 @@ class ProductController extends Controller
 
         $products = Product::all();
         return view('products', compact('products'));
+    }
+    public function info($id){
+
+        $products = Product::findOrFail($id);
+        
+        return view('prodinfo', compact('product'));
+        
     }
 }

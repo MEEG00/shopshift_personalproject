@@ -1,7 +1,7 @@
 :root{
     --main:#DEDEDE;
     --secc:#222222;
-    --acc:#dedede00;
+    --acc:#dedede1e;
 
 }
 h1{
@@ -42,4 +42,9 @@ h2{
 .btncol{
     background-color: var(--secc);
     color: var(--main)
+}
+.imgcl{
+    height: 50vh;
+    
+
 }

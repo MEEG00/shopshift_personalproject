@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 align-items-center justify-content-center">
-                <h2 class="text-center">©2022 - SKIP THRU DAT LANE</h2>
+                <h2 class="text-center">©2023 - SKIP THRU DAT LANE</h2>
                 <p class="text-center">From vintage gems to unique curiosities, immerse yourself in a vibrant atmosphere where hidden treasures await.</p>
             </div>
             </div>

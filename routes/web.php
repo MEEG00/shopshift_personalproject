@@ -18,4 +18,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[PublicController::class, 'home'])->name('homepage');
 Route::get('/sell',[ProductController::class, 'sell'])->name('sell');
 Route::post('/sell/store',[ProductController::class, 'store'])->name('store');
-Route::get('items',[ProductController::class, 'index'])->name('products');
+Route::get('/items',[ProductController::class, 'index'])->name('products');
+Route::get('/info/{id}',[ProductController::class,'info'])->name('info');
